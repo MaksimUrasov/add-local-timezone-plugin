@@ -5,7 +5,7 @@
 	window.addEventListener("load", function(event) {
 
 		// 
-		alert('As long as plugin is activated, all posts have double date/time in PUBLISHED section - the original one (original timezone) and additional with sane time but in Browsers time zone. \n \n Press ok to continue');
+		alert('/TEST TEST TEST/ \n \n As long as plugin is activated, all posts have double date/time in PUBLISHED section - the original one (original timezone) and additional with sane time but in Browsers time zone. \n \n Press ok to continue');
     
 		// first we get the post create time and offset
 			const originalPostTime = document.querySelector("time").dateTime;        //get time from a <time> element ( getting by class or id is not possible, because not all themes have them in <time>)
